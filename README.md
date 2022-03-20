@@ -21,10 +21,16 @@ docker-compose -f docker/docker-compose.dev.yml up -d
 Now, from within the development container, the following commands will start up the services:
 
 ```bash
+# Use development environment configuration
+cp .env.dev .env
+
 # To run the API (assumes you're in the project root directory)
 cd api
 npm install
 npm run dev
+
+# To migrate and seed the database
+npm run migrate
 
 # To run the client (assumes you're in the project root directory)
 cd client

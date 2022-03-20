@@ -10,7 +10,9 @@
     "esbenp.prettier-vscode",
     "editorconfig.editorconfig",
     "johnsoncodehk.volar",
-    "wayou.vscode-todo-highlight"
+    "wayou.vscode-todo-highlight",
+    "Prisma.prisma",
+    "IronGeek.vscode-env"
   ],
   "remoteUser": "prawn-tank",
   "workspaceFolder": "/app",

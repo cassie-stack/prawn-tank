@@ -4,7 +4,9 @@
     "esbenp.prettier-vscode",
     "editorconfig.editorconfig",
     "johnsoncodehk.volar",
-    "wayou.vscode-todo-highlight"
+    "wayou.vscode-todo-highlight",
+    "prisma.prisma",
+    "IronGeek.vscode-env"
   ],
   "unwantedRecommendations": [
     "octref.vetur",

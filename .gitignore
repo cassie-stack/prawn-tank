@@ -7,3 +7,9 @@ dist/
 
 # Log files
 *.log*
+
+# DB migrations
+migrations/
+
+# Environment variable files
+.env
