@@ -1,11 +1,3 @@
-import express from "express";
+import Application from "./Application";
 
-const app = express();
-
-app.get("/", (req, res) => {
-  res.send("hello, world.");
-});
-
-app.listen(process.env.API_PORT, () => {
-  console.log(`Listening at http://localhost:${process.env.API_PORT}`);
-});
+new Application().init().run();
