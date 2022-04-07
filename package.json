@@ -1,0 +1,13 @@
+{
+  "name": "prawn-tank",
+  "version": "0.1.0",
+  "description": "An application for tagging and organizing media.",
+  "productName": "Prawn Tank",
+  "author": "Sophie Katz",
+  "private": true,
+  "workspaces": [
+    "api",
+    "client",
+    "domain"
+  ]
+}

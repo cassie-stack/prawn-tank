@@ -6,7 +6,8 @@
     "johnsoncodehk.volar",
     "wayou.vscode-todo-highlight",
     "prisma.prisma",
-    "IronGeek.vscode-env"
+    "irongeek.vscode-env",
+    "fabiospampinato.vscode-terminals"
   ],
   "unwantedRecommendations": [
     "octref.vetur",

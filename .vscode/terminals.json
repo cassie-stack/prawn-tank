@@ -1,0 +1,43 @@
+{
+  "autorun": true,
+  "terminals": [
+    {
+      "name": "Root Misc",
+      "icon": "",
+      "focus": true
+    },
+    {
+      "name": "API Misc",
+      "commands": ["cd api"],
+      "color": "terminal.ansiRed"
+    },
+    {
+      "name": "API Dev Server",
+      "commands": ["cd api"],
+      "color": "terminal.ansiRed",
+      "icon": "debug"
+    },
+    {
+      "name": "API Logs",
+      "commands": ["cd api", "npm run logs"],
+      "color": "terminal.ansiRed",
+      "icon": "dashboard"
+    },
+    {
+      "name": "Client Misc",
+      "commands": ["cd client"],
+      "color": "terminal.ansiCyan"
+    },
+    {
+      "name": "Client Dev Server",
+      "commands": ["cd client"],
+      "color": "terminal.ansiCyan",
+      "icon": "debug"
+    },
+    {
+      "name": "Domain Misc",
+      "commands": ["cd domain"],
+      "color": "terminal.ansiMagenta"
+    }
+  ]
+}

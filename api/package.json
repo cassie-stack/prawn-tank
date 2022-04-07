@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "bunyan": "^1.8.15",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "prawn-tank-domain": "file:domain"
   },
   "devDependencies": {
     "@prisma/client": "^3.11.0",

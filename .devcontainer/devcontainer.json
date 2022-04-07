@@ -12,7 +12,8 @@
     "johnsoncodehk.volar",
     "wayou.vscode-todo-highlight",
     "Prisma.prisma",
-    "IronGeek.vscode-env"
+    "IronGeek.vscode-env",
+    "fabiospampinato.vscode-terminals"
   ],
   "remoteUser": "prawn-tank",
   "workspaceFolder": "/app",

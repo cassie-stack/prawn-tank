@@ -79,6 +79,7 @@ module.exports = configure(function (ctx) {
         cfg.resolve.alias = {
           ...cfg.resolve.alias,
           models: path.resolve(__dirname, './src/models'),
+          api: path.resolve(__dirname, './src/api'),
         };
       },
     },
